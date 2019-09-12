@@ -689,19 +689,9 @@ input[type="radio"].visually-hidden {
   width: 100%;
   min-height: 45px;
   border-radius: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 20px;
-  text-align: center;
   outline: none;
-  padding: 1px;
+  text-align: center;
 }
 .block-2__input::-webkit-input-placeholder {
   font-size: 18px;
@@ -1045,13 +1035,13 @@ input[type="radio"].visually-hidden {
 .slick-next,
 .slick-prev {
   position: absolute;
-  top: 250px;
+  top: 180px;
 }
 .slick-next {
-  right: -10px;
+  right: 0;
 }
 .slick-prev {
-  left: -10px;
+  left: 0;
 }
 .slick-prev::before {
   content: "";
