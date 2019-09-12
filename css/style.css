@@ -703,18 +703,18 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 .block-2__input::-webkit-input-placeholder {
-  font-size: 20px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: bold;
 }
 .block-2__input::-ms-input-placeholder {
-  font-size: 20px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: bold;
 }
 .block-2__input::placeholder {
-  font-size: 20px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: bold;
 }
 .block-2__button {
