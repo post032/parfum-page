@@ -705,14 +705,17 @@ input[type="radio"].visually-hidden {
 .block-2__input::-webkit-input-placeholder {
   font-size: 18px;
   font-weight: bold;
+  padding: 5px;
 }
 .block-2__input::-ms-input-placeholder {
   font-size: 18px;
   font-weight: bold;
+  padding: 5px;
 }
 .block-2__input::placeholder {
   font-size: 18px;
   font-weight: bold;
+  padding: 5px;
 }
 .block-2__button {
   font-size: 18px;
@@ -1040,4 +1043,39 @@ input[type="radio"].visually-hidden {
       -ms-flex-direction: column;
           flex-direction: column;
   outline: none;
+}
+.slick-next,
+.slick-prev {
+  position: absolute;
+  top: 250px;
+}
+.slick-prev::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-top: 1px solid #2a2e3f;
+  border-left: 1px solid #2a2e3f;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  outline: 0;
+  z-index: 5;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.slick-next:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-top: 1px solid #2a2e3f;
+  border-left: 1px solid #2a2e3f;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  outline: 0;
+  z-index: 5;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
