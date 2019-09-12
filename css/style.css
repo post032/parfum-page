@@ -704,23 +704,22 @@ input[type="radio"].visually-hidden {
   margin-bottom: 20px;
 }
 .block-2__button {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  background: #ff7648;
+  position: relative;
+  display: block;
   width: 100%;
-  height: 45px;
-  border-radius: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  min-height: 45px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
   border: 1px solid #ff7648;
+  background: #ff7648;
+  outline: none;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .block-2__form {
