@@ -701,21 +701,19 @@ input[type="radio"].visually-hidden {
   margin-bottom: 20px;
   text-align: center;
   outline: none;
+  padding: 1px;
 }
 .block-2__input::-webkit-input-placeholder {
   font-size: 18px;
   font-weight: bold;
-  padding-bottom: 5px;
 }
 .block-2__input::-ms-input-placeholder {
   font-size: 18px;
   font-weight: bold;
-  padding-bottom: 5px;
 }
 .block-2__input::placeholder {
   font-size: 18px;
   font-weight: bold;
-  padding-bottom: 5px;
 }
 .block-2__button {
   font-size: 18px;
