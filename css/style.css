@@ -689,20 +689,32 @@ input[type="radio"].visually-hidden {
   width: 100%;
   min-height: 45px;
   border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 20px;
-  outline: none;
   text-align: center;
+  outline: none;
 }
 .block-2__input::-webkit-input-placeholder {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 29px;
   font-weight: bold;
 }
 .block-2__input::-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 29px;
   font-weight: bold;
 }
 .block-2__input::placeholder {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 29px;
   font-weight: bold;
 }
 .block-2__button {
@@ -1038,10 +1050,10 @@ input[type="radio"].visually-hidden {
   top: 180px;
 }
 .slick-next {
-  right: 0;
+  right: 5px;
 }
 .slick-prev {
-  left: 0;
+  left: 5px;
 }
 .slick-prev::before {
   content: "";
